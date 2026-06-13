@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+.venv/
+.env
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / tooling
+.pytest_cache/
+
+# Database
+*.sqlite3
+*.db
+
+# Secrets / local config
+secrets.yml
+config.local
+
+# Build outputs
+out/
+build_output/
+
+# Ignore this generated script
+codeapp.py
