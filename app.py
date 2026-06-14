@@ -177,7 +177,7 @@ st.image(
         width="stretch"
     )
 
-st.markdown("<h1 style='text-align: center; color: #FDB515; margin-bottom: 5px;'>California Home Value Estimator App</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #FDB515; margin-bottom: 5px;'> 🏡California Home Value Estimator App</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #003262; margin-bottom: 25px;'>This application scales individual user inputs up using true baseline metrics extracted from the census dataset.</p>", unsafe_allow_html=True)
 
 #Call the user input fuction to display fields and get the input DataFrame
@@ -185,7 +185,7 @@ left_column, right_column = st.columns(2)
 
 
 with left_column:
-    """I will put and interactive chart here"""
+    """I will put an interactive chart here"""
 
 with right_column:
     st.header("Predict home Value")
